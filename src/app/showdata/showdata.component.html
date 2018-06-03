@@ -1,0 +1,10 @@
+<button (click) = "getuser()">display</button>
+<ol *ngIf="userdata">
+<li *ngFor = "let user of  userdata.data" >
+  {{user.first_name}}
+  
+  
+</li>
+
+
+</ol>
